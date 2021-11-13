@@ -10,8 +10,7 @@ const HomeRoute = () => {
       <Title
         style={
           (styles.welcome,
-          { color: colors.primary },
-          { fontFamily: "work-sans-bold" })
+          { color: colors.primary })
         }
       >
         Home page

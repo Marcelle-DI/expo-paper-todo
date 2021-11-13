@@ -1,10 +1,10 @@
 import React from "react";
-import { configureFonts, DefaultTheme } from "react-native-paper";
-import fontConfig from "./Fonts";
+// import { configureFonts, DefaultTheme } from "react-native-paper";
+// import fontConfig from "./Fonts";
+import { DefaultTheme } from "react-native-paper";
 
 const theme = {
   ...DefaultTheme,
-  fonts: configureFonts(fontConfig),
   roundness: 30,
   colors: {
     ...DefaultTheme.colors,
